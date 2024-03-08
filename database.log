@@ -1,0 +1,7 @@
+2024-03-08 09:38:13,076 - INFO - Item added: Key='key1', Value='value1'
+2024-03-08 09:41:47,604 - INFO - Item added: Key='key1', Value='value1'
+2024-03-08 09:41:47,604 - INFO - Item loaded: Key='key1', Value='value1'
+2024-03-08 09:41:47,604 - INFO - Item added: Key='key2', Value='value2'
+2024-03-08 09:41:47,604 - INFO - Item loaded: Key='key2', Value='value2'
+2024-03-08 09:41:47,605 - INFO - Item deleted: Key='key1'
+2024-03-08 09:41:47,605 - INFO - Item loaded: Key='key1', Value='None'
