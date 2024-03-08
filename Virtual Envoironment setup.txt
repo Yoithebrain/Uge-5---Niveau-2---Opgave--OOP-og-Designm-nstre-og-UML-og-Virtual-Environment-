@@ -1,0 +1,20 @@
+Naviger til dit projekt: Åbn en terminal eller kommandoprompt og naviger til dit projekts rodmappe.
+
+Aktivér det virtuelle miljø:
+
+På Windows:
+
+.venv\Scripts\activate
+
+På Linux/MacOS:
+source .venv/bin/activate
+
+Installer afhængigheder fra requirements.txt: 
+Kør følgende kommando for at installere de nødvendige afhængigheder fra requirements.txt-filen:
+pip install -r requirements.txt
+
+Arbejd i det virtuelle miljø: Nu er det virtuelle miljø aktiveret, og du kan arbejde på dit projekt. 
+Alle pakker, du installerer eller kører, vil være isoleret til dette miljø.
+
+Deaktiver det virtuelle miljø: Når du er færdig med at arbejde i det virtuelle miljø, kan du deaktivere det ved at køre:
+deactivate
