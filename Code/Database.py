@@ -17,7 +17,7 @@ class Database:
         if key in self._data:
             del self._data[key]
 
-# Debug code:
+# Debug code - Example usage:
 '''
 db1 = Database()
 db1.insert_data("key1", "value1")

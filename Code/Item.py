@@ -2,8 +2,13 @@
 # Products for product factory
 # - CLY 040324 -
 ####
+####
+# Added an automated id
+# - CLY 050324 -
+####
 
 class Item:
+    # Id of latest item, whenever an item is created a new unique id is given to the item.
     latest_id = 0
     def __init__(self, name, price, description):
         Item.latest_id += 1

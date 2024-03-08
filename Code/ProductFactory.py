@@ -28,6 +28,8 @@ class ProductFactory:
             print(f"An error occurred while trying to load the item for the class: {e}")
             pass
         return None
-# Debug laptop - Use this to test the class on its own
+    
+
+# Debug laptop - Use this to test the class on its own - example usage:
 #laptop = ProductFactory.create_item("Laptop", "Laptop", 1000.99, "'High-performance' laptop, very good in current year we promise", "ShitWarez", "Intel Core i3", "GTX 750 TX", "Linux Ubuntu")
 #laptop.display_info()
