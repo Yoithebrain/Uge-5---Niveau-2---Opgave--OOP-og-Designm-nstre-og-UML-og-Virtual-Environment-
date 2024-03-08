@@ -49,7 +49,7 @@ class Database:
     def delete_data(key):
         if key in Database._data:
             del Database._data[key]
-
+'''
 # Debug code - Example usage:
 
 db1 = Database()
@@ -63,3 +63,4 @@ print(db1.get_data("key2"))  # Output: value2 (Both instances share the same dat
 
 db1.delete_data("key1")
 print(db2.get_data("key1"))  # Output: None (Changes made in one instance affect the other)
+'''
